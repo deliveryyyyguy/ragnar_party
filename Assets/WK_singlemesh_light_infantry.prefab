@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 114728699481100862}
   - component: {fileID: 114253262316161152}
   - component: {fileID: 114204855193676876}
+  - component: {fileID: 114717457690684632}
   m_Layer: 0
   m_Name: WK_singlemesh_light_infantry
   m_TagString: Untagged
@@ -830,15 +831,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TransformSyncMode: 1
-  m_SendInterval: 0.0625
-  m_SyncRotationAxis: 0
+  m_SendInterval: 0.04761905
+  m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
   m_SyncSpin: 0
-  m_MovementTheshold: 0.0005
+  m_MovementTheshold: 0.005
   m_VelocityThreshold: 0.0001
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
-  m_InterpolateMovement: 0.5
+  m_InterpolateMovement: 1
 --- !u!114 &114253262316161152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -863,6 +864,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81a8fef546cab54e9edfc9090d7ed6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114717457690684632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1759091221912818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1590678366, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 95726027532164762}
+  m_ParameterSendBits: 1
+  param0: 
+  param1: 
+  param2: 
+  param3: 
+  param4: 
+  param5: 
 --- !u!114 &114728699481100862
 MonoBehaviour:
   m_ObjectHideFlags: 1
